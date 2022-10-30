@@ -8,6 +8,7 @@ import selenium.webdriver.common.action_chains
 class Teste:
 
     def __init__(self):
+        # Teste
         driver = webdriver.Chrome(executable_path='chromedriver.exe')
 
         driver.get("https://www.terra.com.br")
